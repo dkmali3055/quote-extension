@@ -1,0 +1,26 @@
+{
+    "name": "Quote-app",
+  "description": "Get a Motivation",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "back.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "16": "logo2.png",
+    "32": "logo2.png",
+    "48": "logo2.png",
+    "128": "logo2.png"
+  }
+
+}
